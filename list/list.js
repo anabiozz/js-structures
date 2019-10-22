@@ -53,7 +53,7 @@ module.exports = class List {
 		this.size = this.position = 0;
 	}
 	
-	contains() {
+	contains(element) {
 		for (let i = 0; i < this.dataStore.length; i++) {
 			if (this.dataStore[i] == element) {
 				return true;

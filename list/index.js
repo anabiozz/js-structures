@@ -7,6 +7,8 @@ names.append("Cynthia");
 names.append("Jennifer");
 names.append("Bryan");
 names.append("Danny");
+names.insert("Lolkin", "Bryan");
+names.remove("Clathon");
 
 // names.front();
 for (names.front(); names.currentPosition() < names.length(); names.next()) {
