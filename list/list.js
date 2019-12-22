@@ -93,4 +93,4 @@ module.exports = class List {
 	getElement() {
 		return this.dataStore[this.position];
 	}
-}
+};
